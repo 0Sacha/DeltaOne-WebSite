@@ -32,6 +32,17 @@ nav {
   margin-right: 20px;
 }
 
+/* Section 1 */
+
+
+
+.sec1 h2{
+  margin-left: 50px;
+  margin-top: ;
+  
+  color: #ffffff;
+}
+
 .nav-icon span {
   font-family: Roboto Flex, sans-serif;
   font-size: 25px;
@@ -63,7 +74,7 @@ nav {
   height: 1px;
   transform: scaleX(0);
   transform-origin: left;
-  background: rgb(255, 94, 0);
+  background: #ff5e00;
   transition: transform 0.3s ease-out;
 }
 
@@ -88,8 +99,16 @@ nav {
 
 .sign-btns button:nth-child(2) {
   border: none;
-  background: #ac65c9b7;
+  background: #ff6912;
 }
+
+.sign-btns button:nth-child(2):hover {
+  border: none;
+  background: #ff7300c9;
+  transition: 0.7s ease;
+}
+
+
 .sign-user {
   display: none;
 }
