@@ -162,6 +162,7 @@ nav {
   /* Section 1 */
 
 .imgspawn img {
+  display: none;
   height: 250px;
   margin-left: 27px;  
   border-left: #ff5100;
