@@ -161,7 +161,11 @@ nav {
 
   /* Section 1 */
 
-
+.imgspawn img {
+  height: 250px;
+  margin-left: 27px;  
+  border-left: #ff5100;
+}
 
 .sec1 h2{
   margin-left: 30px;
