@@ -38,10 +38,41 @@ nav {
 
 .sec1 h2{
   margin-left: 50px;
-  margin-top: ;
+  margin-top: 0;
   
   color: #ffffff;
 }
+
+.sec1 p{
+  margin-left: 50px;
+  margin-top: 0;
+  color: #ffffff;
+}
+
+.sec1 a {
+  text-decoration: none;
+  color: #ff5100;
+}
+
+.en-savoir-plus button {
+  font-family: Roboto Flex, sans-serif;
+  font-size: 16px;
+  min-width: 90px;
+  padding: 10px 5px;
+  margin: 0 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none; 
+  margin-left: 50px;
+}
+
+.en-savoir-plus button {
+
+  border: none;
+  background: #ff6912;
+}
+  
+
 
 .nav-icon span {
   font-family: Roboto Flex, sans-serif;
