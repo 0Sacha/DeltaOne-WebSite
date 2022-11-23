@@ -71,7 +71,7 @@ nav {
 }
 
 .en-savoir-plus button {
-
+  color: #fff;
   border: none;
   background: #ff6912;
 }
@@ -217,23 +217,9 @@ form .message textarea{
 }
 
 .sendemail button {
-
+  color: #fff;
   border: none;
   background: #ff6912;
-}
-
-.sendemail button:hover:after{
-  border: none;
-  background: #ff6912;
-  color: #fff;
-  transition: 0.7s ease;
-}
-
-.sendemail button:hover::before{
-  border: none;
-  background: #29292979;
-  color: #fff;
-  transition: 0.7s ease;
 }
 
 
@@ -314,6 +300,7 @@ form .message textarea{
 }
 
 .en-savoir-plus button {
+  text-decoration: none;
   font-family: Roboto Flex, sans-serif;
   font-size: 16px;
   min-width: 90px;
@@ -326,7 +313,7 @@ form .message textarea{
 }
 
 .en-savoir-plus button {
-
+  color: #fff;
   border: none;
   background: #ff6912;
 }
