@@ -20,9 +20,9 @@
   
     <nav>
 
-      <a href="#" class="nav-icon" aria-label="visit homepage" aria-current="page">
+      <a href="index.html" class="nav-icon" aria-label="visit homepage" aria-current="page">
         <img src="img/logotemp.png" alt="chat icon">
-        <span>Hyranio</span>
+        <span class="logo">Hyranio</span>
       </a>
 
       <div class="main-navlinks">
@@ -40,7 +40,7 @@
 
       <div class="nav-authentication">
         <a href="#" class="sign-user" aria-label="Sign in page">
-          <img src="img/user.svg" alt="user-icon">
+          <img src="img/user.png" alt="user-icon">
         </a>
         <div class="sign-btns">
           <button type="button">Sign In</button>
@@ -60,21 +60,39 @@
   <br>
   <br>
   
-
-
-  <section class="sec1">
-
-    <h2>CONCTEZ L'ÉQUIPES D'HYRANIO !</h2>
-    <br>
-    <p>
-    <br>
-    <br>
-    <br>
-    <div class="en-savoir-plus">
-      <a href="#"><button type="button">Envoyé</button></a>
-    </div>
-    </p>
-
-  </section> 
+  <div class="wrapper">
+    <header>CONTACT NOUS !</header>
+    <form action="#">
+      <div class="dbl-field">
+        <div class="field">
+          <input type="text" name="name" placeholder="Enter your name">
+          <i class='fas fa-user'></i>
+        </div>
+        <br>
+        <div class="field">
+          <input type="text" name="email" placeholder="Enter your email">
+          <i class='fas fa-envelope'></i>
+        </div>
+      </div>
+      <br>
+      <div class="dbl-field">
+        <div class="field">
+          <input type="text" name="phone" placeholder="Enter your phone">
+          <i class='fas fa-phone-alt'></i>
+        </div>
+        <br>
+      </div>
+      <br>
+      <div class="message">
+        <textarea placeholder="Write your message" name="message"></textarea>
+        <i class="material-icons"></i>
+      </div>
+      <br>
+      <div class="sendemail">
+        <a href="#"><button type="submit">En savoir plus</button></a>
+      </div>
+    </form>
+  </div>
 
 </html>
+
