@@ -71,6 +71,13 @@ nav {
   border: none;
   background: #ff6912;
 }
+
+.en-savoir-plus button:hover{
+  border: none;
+  background: rgb(255, 255, 255);
+  color: #262626;
+  transition: 0.7s ease;
+}
   
 
 
@@ -102,7 +109,8 @@ nav {
   position: absolute;
   bottom: -3px;
   width: 100%;
-  height: 1px;
+  height: 2.5px;
+  border-radius: 50px;
   transform: scaleX(0);
   transform-origin: left;
   background: #ff5e00;
@@ -144,37 +152,60 @@ nav {
   display: none;
 }
 
-/* discord widget */
-iframe {
-  position: absolute;
-  align-items: center;
-  border-radius: 25px;
-  align-content: center;
-}  
 
-header {
-  background: #222222;
-}
-
-header {
-  padding: 0;
-  margin: 0;
-  
-  align-items: center;
-}
-
-header h1 {
-  color: #000;
-}
-
-header p {
-  color: #000;
-}
 /* footer */
 
 
 
 @media (max-width: 900px) {
+
+  /* Section 1 */
+
+
+
+.sec1 h2{
+  margin-left: 30px;
+  margin-top: 0;
+  
+  color: #ffffff;
+}
+
+.sec1 p{
+  margin-left: 30px;
+  margin-top: 0;
+  color: #ffffff;
+}
+
+.sec1 a {
+  text-decoration: none;
+  color: #ff5100;
+}
+
+.en-savoir-plus button {
+  font-family: Roboto Flex, sans-serif;
+  font-size: 16px;
+  min-width: 90px;
+  padding: 10px 5px;
+  margin: 0 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none; 
+  margin-left: 30px;
+}
+
+.en-savoir-plus button {
+
+  border: none;
+  background: #ff6912;
+}
+
+.en-savoir-plus button:hover{
+  border: none;
+  background: rgb(255, 255, 255);
+  color: #262626;
+  transition: 0.7s ease;
+}
+  
 
   .logo {
     display: none;
