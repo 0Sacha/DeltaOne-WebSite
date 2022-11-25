@@ -14,6 +14,41 @@ body {
   font-family: Montserrat, Helvetica, sans-serif;
   background: #1d1d1d;
 }
+/* 
+.contenu {
+  position: relative;
+  z-index: 1000;
+} */
+
+h2 {
+  font-size: 55px;
+  padding: 200px 0 0 10vw;
+  color: #f1f1f1;
+}
+
+p{
+  font-size: 30px;
+  padding-left: 10vw;
+  margin: 7px 0;
+  color: #f1f1f1;
+}
+
+button {
+  margin: 20px 0 0 10vw;
+  padding: 12px;
+  font-size: 20px;
+  width: 150px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+}
+
+.laptop {
+  width: 30vw;
+  position: absolute;
+  top: 100px;
+  right: 12%;
+}
 
 nav {
   position: fixed;
@@ -32,31 +67,6 @@ nav {
   margin-right: 20px;
 }
 
-/* Section 1 */
-
-
-.imgspawn {
-    margin-left: 27px;
-}
-
-
-.sec1 h2{
-  margin-left: 50px;
-  margin-top: 0;
-  
-  color: #ffffff;
-}
-
-.sec1 p{
-  margin-left: 50px;
-  margin-top: 0;
-  color: #ffffff;
-}
-
-.sec1 a {
-  text-decoration: none;
-  color: #ff5100;
-}
 
 .en-savoir-plus button {
   font-family: Roboto Flex, sans-serif;
@@ -140,12 +150,12 @@ nav {
   border: none; 
 }
 
-.sign-btns button:nth-child(2) {
+.sign-btns button {
   border: none;
   background: #ff6912;
 }
 
-.sign-btns button:nth-child(2):hover {
+.sign-btns button:hover {
   border: none;
   background: #ff7300c9;
   transition: 0.7s ease;
@@ -269,10 +279,19 @@ form .message textarea{
 /* footer */
 
 
+@media (max-width: 1600px) {
+
+
+  .laptop {
+    display: none;
+  }
+
+}
 
 @media (max-width: 900px) {
 
   /* Section 1 */
+
 
 .imgspawn img {
   display: none;
