@@ -14,13 +14,12 @@ body {
   font-family: Montserrat, Helvetica, sans-serif;
   background: #1d1d1d;
 }
-/* 
-.contenu {
-  position: relative;
-  z-index: 1000;
-} */
 
-h2 {
+.contenu {
+  z-index: 1000;
+}
+
+h1 {
   font-size: 55px;
   padding: 200px 0 0 10vw;
   color: #f1f1f1;
@@ -40,7 +39,19 @@ button {
   width: 150px;
   border-radius: 5px;
   cursor: pointer;
+}
+
+button {
+  color: #fff;
   border: none;
+  background: #ff6912;
+}
+
+.ensavoirplus:hover{
+  border: none;
+  background: rgb(255, 255, 255);
+  color: #262626;
+  transition: 0.7s ease;
 }
 
 .laptop {
@@ -56,7 +67,7 @@ nav {
   display: flex;
   align-items: center;
   padding: 15px 25px;
-  background: #24242400;
+  background: #1d1d1d;
   box-shadow: inset 0px -1px 0px #44444400;
 }
 
@@ -93,7 +104,6 @@ nav {
   transition: 0.7s ease;
 }
   
-
 
 .nav-icon span {
   font-family: Roboto Flex, sans-serif;
@@ -157,13 +167,33 @@ nav {
 
 .sign-btns button:hover {
   border: none;
-  background: #ff7300c9;
+  background: #ffffff;
   transition: 0.7s ease;
 }
 
 
 .sign-user {
   display: none;
+}
+
+/* apropos */
+
+.contenu1 h1{
+  font-size: 55px;
+  padding: 200px 0 0 10vw;
+  color: #f1f1f1;
+}
+
+.contenu1 {
+    z-index: 1000;
+}
+
+.spawnhyranio {
+  width: 30vw;
+  position: absolute;
+  top: 273.5px;
+  right: 7%;
+  border-radius: 5px
 }
 
 /* Contact */
@@ -279,44 +309,43 @@ form .message textarea{
 /* footer */
 
 
-@media (max-width: 1600px) {
+@media (max-width: 1500px) {
 
 
-  .laptop {
-    display: none;
+ .laptop {
+    width: 30vw;
+    position: absolute;
+    top: 100px;
+    right: 5%;
   }
 
 }
 
+@media (max-width: 1650px) {
+
+
+   .spawnhyranio {
+     display: none;
+   }
+ 
+ }
+
+@media (max-width: 1300px) {
+  .laptop {
+    display: none;
+  }
+
+  .spawnhyranio {
+    display: none;
+  }
+
+
+}
+
+
 @media (max-width: 900px) {
 
-  /* Section 1 */
 
-
-.imgspawn img {
-  display: none;
-  height: 250px;
-  margin-left: 27px;  
-  border-left: #ff5100;
-}
-
-.sec1 h2{
-  margin-left: 30px;
-  margin-top: 0;
-  
-  color: #ffffff;
-}
-
-.sec1 p{
-  margin-left: 30px;
-  margin-top: 0;
-  color: #ffffff;
-}
-
-.sec1 a {
-  text-decoration: none;
-  color: #ff5100;
-}
 
 .en-savoir-plus button {
   font-family: Roboto Flex, sans-serif;
@@ -372,7 +401,7 @@ form .message textarea{
     cursor: pointer;
     border: none;
     display: flex;
-    background: #242424;
+    background: #24242400;
     align-items: center;
     position: relative;
   }
@@ -416,7 +445,6 @@ form .message textarea{
     left: 0;
     height: 100vh;
     padding: 15px 50px 15px 20px;
-    border-right: 1px solid #242424;
     transform: translate(-100%);
   }
   .open {
@@ -453,3 +481,4 @@ form .message textarea{
     font-size: 20px;
   }
 }
+

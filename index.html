@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Accueil</title>
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/darkmode.css">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -19,8 +20,10 @@
   
   <body>
 
-   
-  
+      <div class="darkmode">
+        <a href="img/lune.svg"></a>
+      </div>
+    
       <nav>
   
         <a href="index.html" class="nav-icon" aria-label="visit homepage" aria-current="page">
@@ -29,47 +32,37 @@
         </a>
   
         <div class="main-navlinks">
-          <button class="hamburger" type="button" aria-label="Toggle navigation" aria-expanded="false">
+          <button class="hamburger">
             <span></span>
             <span></span>
             <span></span>
           </button>
           <div class="navlinks-container">
-            <a href="index.html" aria-current="page">Accueil</a>
-            <a href="Contact.html">Contact</a>
+            <a href="#" aria-current="page">Accueil</a>
             <a href="Apropos.html">A propos</a>
+            <a href="Contact.html">Contact</a>
           </div>
         </div>
-  
         <div class="nav-authentication">
-          <a href="#" class="sign-user" aria-label="Sign in page">
-            <img src="img/user.png" alt="user-icon">
-          </a>
+          
           <div class="sign-btns">
             <button type="button">Jouer</button>
          </div>
         </div>
-      
       </nav>
         
       
+  
 
-        
-      <script src="js/script.js"></script>
-  </body>
-
-  <section>  
     <div class="contenu">
-      <h2>BIENVENUE SUR HYRANIO !</h2>
+      <h1>BIENVENUE SUR HYRANIO !</h1>
       <p>Hyranio est un petit SMP (Serveur Minecraft Privée)</p>
-      <img src="img/RSlogo.png" class="laptop">
-      <button type="button">En savoir plus</button></a>
+      <img src="img/logotemp.png" class="laptop">
+      <a href="#apropos"><button class="ensavoirplus" type="button">En savoir plus</button></a>
+      <script src="js/app.js"></script>
     </div>
-  </section>  
 
-
-
-
-
+    <script src="js/script.js"></script>
+  </body>
 
   </html>
