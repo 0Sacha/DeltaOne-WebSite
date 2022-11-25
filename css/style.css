@@ -304,6 +304,27 @@ form .message textarea{
   }
 }
 
+/* DARKMODE */
+.btn-toggle {
+  position: absolute;
+  top: -5px;
+  right: 180px;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;    
+  cursor: pointer;
+}
+
+body.dark {
+  color: #1d1d1d!important;
+  background: rgb(134, 134, 134)!important;
+}
+
+/* FIN DARKMODE */
 
 
 /* footer */
@@ -345,7 +366,19 @@ form .message textarea{
 
 @media (max-width: 900px) {
 
-
+  .btn-toggle {
+    position: absolute;
+    top: -1px;
+    right: 20px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    cursor: pointer;
+  }
 
 .en-savoir-plus button {
   font-family: Roboto Flex, sans-serif;
