@@ -53,7 +53,23 @@ button {
   font-size: 45px;
 }
 
+.réseaux h1 {
+  background: #000;
+  padding: 10;
+  margin: 0;
+}
 
+.réseaux a {
+  color: #ff6912;
+  padding: 100px 0 0 15vw;
+  text-decoration: none;
+  font-weight: bold;
+  
+}
+
+footer{
+  background: #000;
+}
 
 .ensavoirplus:hover{
   border: none;
