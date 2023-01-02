@@ -19,6 +19,53 @@ body {
   z-index: 1000;
 }
 
+/* slider-1 */
+
+.slider-1 {
+  max-width: 1800px;
+  margin: 100px auto;
+  overflow: hidden;
+  border: 1px solid #f1f1f1;
+}
+
+.slider-1 .slider {
+  display: flex;
+  animation: slider-1 12s infinite ease-in-out;
+}
+
+.slider-1 p {
+  background: rgba(6, 132, 241, 0.959);
+  flex-shrink: 0;
+  padding: 72px 0;
+  width: 100%;
+  text-align: center;
+  font-size: 45px;
+  color: #f1f1f1;
+}
+
+@keyframes slider-1 {
+  0%,
+  20% {
+    transform: translateX(0);
+  }
+  25%,
+  45% {
+    transform: translateX(-100%);
+  }
+  50%,
+  70% {
+    transform: translateX(-200%);
+  }
+  75%,
+  95% {
+    transform: translateX(-300%);
+  }
+  100% {
+    transform: translateX(-400%);
+  }
+} 
+
+
 h1 {
   font-size: 55px;
   padding: 200px 0 0 10vw;
@@ -35,7 +82,7 @@ p{
 button {
   margin: 20px 0 0 10vw;
   padding: 12px;
-  font-size: 20px;
+  font-size: 19px;
   width: 150px;
   border-radius: 5px;
   cursor: pointer;
@@ -44,7 +91,14 @@ button {
 button {
   color: #fff;
   border: none;
-  background: #ff6912;
+  background: #12a0ff;
+}
+
+button:hover {
+  color: #ffffff;
+  border: 1px solid #12a0ff;
+  background: #00365a00;
+  transition: 1s;
 }
 /* play page */
 
@@ -60,7 +114,7 @@ button {
 }
 
 .réseaux a {
-  color: #ff6912;
+  color: #12a0ff;
   padding: 100px 0 0 15vw;
   text-decoration: none;
   font-weight: bold;
@@ -118,7 +172,7 @@ nav {
 .en-savoir-plus button {
   color: #fff;
   border: none;
-  background: #ff6912;
+  background: #12a0ff;
 }
 
 .en-savoir-plus button:hover{
@@ -161,7 +215,7 @@ nav {
   border-radius: 50px;
   transform: scaleX(0);
   transform-origin: left;
-  background: #ff5e00;
+  background: #ffffff;
   transition: transform 0.3s ease-out;
 }
 
@@ -185,14 +239,16 @@ nav {
   
 }
 
+
+
 .sign-btns button {
   border: none;
-  background: #ff6912;
+  background: #12a0ff;
 }
 
 .sign-btns button:hover {
-  border: none;
-  background: #ffffff;
+  background: #00000000;
+  border: 1px solid #12a0ff;
   transition: 0.7s ease;
 }
 
@@ -349,6 +405,8 @@ body.dark {
   background: rgb(253, 253, 253)!important;
 }
 
+
+
 /* FIN DARKMODE */
 
 
@@ -442,7 +500,8 @@ body.dark {
 
   .nav-icon {
     order: 2;
-    margin: 0 auto;
+    margin-left: auto;
+    margin-top: 5px;
   }
 
   .nav-icon span {
