@@ -340,16 +340,17 @@ form .message textarea{
 .sendemail button {
   color: #fff;
   border: none;
-  background: #ff6912;
+  background: #12a0ff;
 }
 
 
 .sendemail button:hover{
-  border: none;
-  background: #29292979;
-  color: #fff;
-  transition: 0.7s ease;
+  color: #ffffff;
+  border: 1px solid #12a0ff;
+  background: #00365a00;
+  transition: 1s;
 }
+
 
 @media (max-width: 600px){
   .wrapper header{
