@@ -30,7 +30,7 @@ body {
 
 .slider-1 .slider {
   display: flex;
-  animation: slider-1 12s infinite ease-in-out;
+  animation: slider-1 30s infinite ease-in-out;
 }
 
 .slider-1 p {
