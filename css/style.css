@@ -68,13 +68,13 @@ body {
 
 h1 {
   font-size: 55px;
-  padding: 200px 0 0 10vw;
+  padding: 150px 10vw 0 10vw;
   color: #f1f1f1;
 }
 
 p{
   font-size: 30px;
-  padding-left: 10vw;
+  padding: 0 10vw 0 10vw;
   margin: 7px 0;
   color: #f1f1f1;
 }
