@@ -30,7 +30,7 @@ body {
 
 .slider-1 .slider {
   display: flex;
-  animation: slider-1 30s infinite ease-in-out;
+  animation: slider-1 15s infinite ease-in-out;
 }
 
 .slider-1 p {
@@ -39,8 +39,9 @@ body {
   padding: 72px 0;
   width: 100%;
   text-align: center;
-  font-size: 45px;
+  font-size: 39px;
   color: #f1f1f1;
+  font-weight: bold;
 }
 
 @keyframes slider-1 {
