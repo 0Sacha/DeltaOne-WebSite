@@ -66,6 +66,18 @@ body {
   }
 } 
 
+.conception a {
+  color: #0099ff;
+  font-size: 30px;
+}
+
+.conception h1 {
+  font-size: 45px;
+}
+
+.conception a:hover {
+  color: #32adff;
+}
 
 h1 {
   font-size: 55px;
