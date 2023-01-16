@@ -10,14 +10,18 @@
   padding: 0;
 }
 
+
+
 body {
   font-family: Montserrat, Helvetica, sans-serif;
-  background: #1d1d1d;
+  background: #020312;
 }
 
 .contenu {
   z-index: 1000;
 }
+
+
 
 /* slider-1 */
 
@@ -25,7 +29,7 @@ body {
   max-width: 1800px;
   margin: 100px auto;
   overflow: hidden;
-  border: 1px solid #f1f1f1;
+  border: 1.5px solid #ffffff;
 }
 
 .slider-1 .slider {
@@ -34,8 +38,9 @@ body {
 }
 
 .slider-1 p {
-  background: rgba(6, 132, 241, 0.959);
+  background: #0099ff;
   flex-shrink: 0;
+  margin: 0.2px auto;
   padding: 72px 0;
   width: 100%;
   text-align: center;
@@ -66,6 +71,29 @@ body {
   }
 } 
 
+h2{
+  font-size: 55px;
+  padding: 150px 10vw 0 10vw;
+  color: #32adff;
+  text-decoration-line: underline;
+}
+
+.Markerting a {
+  color: #0099ff;
+  font-size: 30px;
+}
+
+.Markerting h1 {
+  font-weight: normal;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 45px;
+  padding-top: 90px;
+}
+
+.Markerting a:hover {
+  color: #32adff;
+}
+
 .conception a {
   color: #0099ff;
   font-size: 30px;
@@ -85,7 +113,7 @@ body {
 h1 {
   font-size: 55px;
   padding: 150px 10vw 0 10vw;
-  color: #f1f1f1;
+  color: #ffffff;
 }
 
 p{
@@ -115,6 +143,10 @@ button:hover {
   border: 1px solid #12a0ff;
   background: #00365a00;
   transition: 1s;
+}
+
+.hamburger:hover {
+  border: 1px solid #12a0ff00;
 }
 /* play page */
 
@@ -161,7 +193,7 @@ nav {
   display: flex;
   align-items: center;
   padding: 15px 25px;
-  background: #1d1d1d;
+  background: #020312;
   box-shadow: inset 0px -1px 0px #44444400;
 }
 
@@ -231,7 +263,7 @@ nav {
   border-radius: 50px;
   transform: scaleX(0);
   transform-origin: left;
-  background: #ffffff;
+  background: #12a0ff;
   transition: transform 0.3s ease-out;
 }
 
@@ -242,6 +274,7 @@ nav {
 .nav-authentication {
   margin-left: auto;
 }
+
 
 .sign-btns button {
   font-family: Roboto Flex, sans-serif;
@@ -273,7 +306,94 @@ nav {
   display: none;
 }
 
+/* contact */
+
+.navlinks-container .contact::after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: -3px;
+  width: 100%;
+  height: 2.5px;
+  border-radius: 50px;
+  transform: scaleX(0);
+  transform-origin: left;
+  background: #ffffff00;
+  transition: transform 0.3s ease-out;
+}
+
+.navlinks-container .contact {
+  font-weight: bold;
+  color: #12a0ff;
+}
+
+
+
+/* Projet */
+
+.navlinks-container .Projet::after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: -3px;
+  width: 100%;
+  height: 2.5px;
+  border-radius: 50px;
+  transform: scaleX(0);
+  transform-origin: left;
+  background: #ffffff00;
+  transition: transform 0.3s ease-out;
+}
+
+.navlinks-container .Projet {
+  font-weight: bold;
+  color: #12a0ff;
+}
+
+
+/* acceuil */
+
+.navlinks-container .home::after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: -3px;
+  width: 100%;
+  height: 2.5px;
+  border-radius: 50px;
+  transform: scaleX(0);
+  transform-origin: left;
+  background: #ffffff00;
+  transition: transform 0.3s ease-out;
+}
+
+.navlinks-container .home {
+  font-weight: bold;
+  color: #12a0ff;
+}
+
+
 /* apropos */
+
+.navlinks-container .apropos::after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: -3px;
+  width: 100%;
+  height: 2.5px;
+  border-radius: 50px;
+  transform: scaleX(0);
+  transform-origin: left;
+  background: #ffffff00;
+  transition: transform 0.3s ease-out;
+}
+
+.navlinks-container .apropos {
+  font-weight: bold;
+  color: #12a0ff;
+}
+
 
 .contenu1 h1{
   font-size: 55px;
@@ -292,8 +412,6 @@ nav {
   right: 7%;
   border-radius: 5px
 }
-
-/* Contact */
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 
@@ -401,6 +519,12 @@ form .message textarea{
     text-align: center;
   }
 }
+
+/* login */
+
+
+
+/* fin login */
 
 /* DARKMODE */
 .btn-toggle {
@@ -530,7 +654,7 @@ body.dark {
   }
   /* Hamburger */
   .hamburger {
-    width: 20px;
+    width: 15px;
     height: 20px;
     cursor: pointer;
     border: none;
@@ -574,7 +698,7 @@ body.dark {
     flex-direction: column;
     align-items: flex-start;
     position: absolute;
-    background: #242424;
+    background: #02031225;
     top: 100%;
     left: 0;
     height: 100vh;
