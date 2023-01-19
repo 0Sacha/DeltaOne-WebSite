@@ -123,6 +123,16 @@ p{
   color: #f1f1f1;
 }
 
+.hamburger button {
+  margin: 20px 0 0 10vw;
+  padding: 10px;
+  font-size: 19px;
+  width: 150px;
+  border-radius: 5px;
+  cursor: pointer;
+  
+}
+
 button {
   margin: 20px 0 0 10vw;
   padding: 12px;
@@ -169,8 +179,14 @@ button:hover {
   
 }
 
+
 footer{
-  background: #000;
+  background: rgba(0, 0, 0, 0);
+  text-align: center;
+  }
+
+footer p {
+  font-size: 20px;
 }
 
 .ensavoirplus:hover{
@@ -244,6 +260,11 @@ nav {
 .hamburger {
   display: none;
 }
+
+.navlinks-container .login {
+  display: none;
+}
+
 .navlinks-container a {
   margin: 0 10px;
   font-size: 16px;
@@ -253,18 +274,24 @@ nav {
   display: inline-block;
   position: relative;
 }
+
+
 .navlinks-container a::after {
   content: "";
   display: block;
   position: absolute;
   bottom: -3px;
   width: 100%;
-  height: 2.5px;
+  height: 3px;
   border-radius: 50px;
   transform: scaleX(0);
   transform-origin: left;
   background: #12a0ff;
   transition: transform 0.3s ease-out;
+}
+
+.navlinks-container .login::after {
+  background: #ff000000;
 }
 
 .navlinks-container a:hover::after {
@@ -370,6 +397,10 @@ nav {
 .navlinks-container .home {
   font-weight: bold;
   color: #12a0ff;
+}
+
+.retour-login {
+  display: none;
 }
 
 
@@ -587,8 +618,63 @@ body.dark {
 
 }
 
+.form-login {
+display:none ;
+}
+
+
+.form-login .button-login {
+display: none;
+}
 
 @media (max-width: 900px) {
+
+.form-login {
+  display: flex;
+  flex-direction:column; 
+  color: #fff;
+  padding: 0px 10px;
+  margin: 10px 10px;
+  border-radius: 8px;
+  font-size: 21px;
+  border-radius: 15px;
+}
+
+.form-login .button-login {
+  display: flex;
+}
+
+.form-login .button-login {
+  text-align: center;
+  font-weight: bold;
+}
+
+.form-login .button-login {
+  padding: 5px 50px;
+  border-radius: 8px;
+}
+
+.retour-login {
+  display: flex;
+  text-decoration: none;
+  justify-content: space-between;
+}
+
+.retour-login {
+  color: #fff;
+  font-weight: bold;
+  
+}
+
+.navlinks-container .login {
+  display:  flex;
+  font-weight: bold;
+  background: #12a0ff;
+  padding: 4px 4px;
+  margin: 10px 0px;
+  border-radius: 8px;
+  font-size: 21px;
+}
 
   .btn-toggle {
     position: absolute;
@@ -705,6 +791,8 @@ body.dark {
     padding: 15px 50px 15px 20px;
     transform: translate(-100%);
   }
+
+
   .open {
     transform: translate(0%);
   }
@@ -729,6 +817,28 @@ body.dark {
     width: 20px;
   }
 
+body  {
+  scrollbar-color: #000;
+
+
+}
+
+.haut a {
+  transition: smooth;
+}
+.haut {
+  position: absolute;
+  text-align: right;
+  right: 10px;
+  top: 100%;
+  }
+
+.haut a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: bold;
+}
 }
 
 @media (max-width: 500px) {
