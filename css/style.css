@@ -654,7 +654,8 @@ body.dark {
 .form-login {
   display: flex;
   flex-direction:column; 
-  color: #fff;
+  color: #fff
+  ; 
   padding: 0px 10px;
   margin: 10px 10px;
   border-radius: 8px;
@@ -720,7 +721,7 @@ body.dark {
 
 .form-login {
   display: flex;
-  flex-direction:column; 
+  flex-direction:column;
   color: #fff;
   padding: 0px 10px;
   margin: 10px 10px;
