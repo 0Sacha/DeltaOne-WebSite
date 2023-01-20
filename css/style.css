@@ -663,6 +663,12 @@ display: none;
 .retour-login {
   padding: 0px 0px;
   margin: 5px 10px;
+  margin-top: 11px;
+}
+
+.retour-login {
+  width: 35px;
+  height: 35px;
 }
 
 .navlinks-container .login {
