@@ -661,9 +661,8 @@ display: none;
 }
 
 .retour-login {
-  color: #fff;
-  font-weight: bold;
-  
+  padding: 0px 0px;
+  margin: 5px 10px;
 }
 
 .navlinks-container .login {
