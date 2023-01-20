@@ -124,7 +124,7 @@ p{
 }
 
 .hamburger button {
-  margin: 20px 0 0 10vw;
+  margin: 20px 0 0 vw;
   padding: 10px;
   font-size: 19px;
   width: 150px;
@@ -848,7 +848,8 @@ body  {
 
 @media (max-width: 500px) {
   .nav-icon img {
-    width: 30px;
+    width: 24px;
+    margin-top: 1px;
   }
   .nav-icon span {
     font-size: 20px;
