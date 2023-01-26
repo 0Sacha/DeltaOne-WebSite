@@ -137,6 +137,13 @@ h1 {
   color: #ffffff;
 }
 
+h1.titre {
+  font-size: 55px;
+  padding: 150px 10vw 0 10vw;
+  color: #ffffff;
+}
+
+
 p{
   font-size: 30px;
   padding: 0 10vw 0 10vw;
