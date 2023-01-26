@@ -23,8 +23,14 @@
 }
 
 .icone {
-  width: 50px ;
+  width: 75px ;
+  transition: transform 0.4s;
 }
+
+.icone:hover {
+  transform: translateY(-10px);
+}
+
 
 body {
   font-family: Montserrat, Helvetica, sans-serif;
