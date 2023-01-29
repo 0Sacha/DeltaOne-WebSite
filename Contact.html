@@ -55,7 +55,7 @@
       
       
     <script src="js/script.js"></script>
-  </body>
+  
 
   <br>
   <br>
@@ -67,23 +67,35 @@
     
   <header>CONTACTEZ L'ÉQUIPE DE DELTAONE !</header>
   
-  <form class="form-contact" >
+  <form onsubmit="sendEmail(); reset(); return false;" class="form-contact" >
 
-    Nom / Prénom : <input type="text" placeholder="Ton Nom / Prénom"><br>
+    Nom / Prénom : <input type="text" id="name" placeholder="Ton Nom / Prénom"><br>
 
-    email : <input type="email" placeholder="Entre ton email / adresse mail"><br>
+    email : <input type="email" id="email" placeholder="Entre ton email / adresse mail"><br>
 
-    Numéro de téléphone : <input type="number" placeholder="Entre ton numéros de téléphone"><br>
+    Numéro de téléphone : <input type="number" id="phone" placeholder="Entre ton numéros de téléphone"><br>
 
-    Ton message : <input type="text" placeholder="Eris ton message"><br>
+    Ton message : <textarea id="message" rows="4" placeholder="Eris ton message"></textarea>
 
-    <button class="button-contact">Envoyer</button>
+    <button type="submit">Envoyer</button>
 
-  </form>
-
-  
-
-  </div>
-
+      </form>
+    </div>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script>
+      function sendEmail(){
+          Email.send({
+            Host : "smtp.office365.com",
+            Username : "Projet",
+            Password : "password",
+            To : 'them@website.com',
+            From : "you@isp.com",
+            Subject : "This is the subject",
+            Body : "And this is the body"
+        }).then(
+          message => alert(message)
+        );
+    </script>
+  </body>
 </html>
 

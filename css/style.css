@@ -454,24 +454,6 @@ nav {
 }
 
 
-.contenu1 h1{
-  font-size: 55px;
-  padding: 200px 0 0 10vw;
-  color: #f1f1f1;
-}
-
-.contenu1 {
-    z-index: 1000;
-}
-
-.spawnhyranio {
-  width: 30vw;
-  position: absolute;
-  top: 273.5px;
-  right: 7%;
-  border-radius: 5px
-}
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 
 
@@ -863,12 +845,9 @@ body.dark {
   }
   /* Hamburger */
   .hamburger {
-    width: 15px;
-    height: 20px;
+    width: 10px;
     cursor: pointer;
-    border: none;
     display: flex;
-    background: #24242400;
     align-items: center;
     position: relative;
   }
@@ -879,7 +858,6 @@ body.dark {
     background: #ffffff;
     position: absolute;
     pointer-events: none;
-    transition: opacity 0.3s 0.15s ease-out;
   }
   .hamburger span:nth-child(1),
   .hamburger span:nth-child(3) {
