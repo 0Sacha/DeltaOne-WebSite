@@ -825,6 +825,15 @@ body.dark {
   transition: 0.7s ease;
 }
   
+  .hamburger {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .nav-icon img {
+    display: flex;
+    justify-content: space-between;
+  }
 
   .logo {
     display: none;
@@ -955,5 +964,16 @@ body  {
   .nav-icon span {
     font-size: 20px;
   }
+  
+  .hamburger {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .nav-icon img {
+    display: flex;
+    justify-content: space-between;
+  }
+
 }
 
