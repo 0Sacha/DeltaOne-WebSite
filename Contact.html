@@ -85,12 +85,12 @@
     <script>
       function sendEmail(){
           Email.send({
-            Host : "smtp.office365.com",
-            Username : "Projet",
-            Password : "password",
-            To : 'them@website.com',
-            From : "you@isp.com",
-            Subject : "This is the subject",
+            Host : "smtp.elasticemail.com",
+            Username : "",
+            Password : "",
+            To : 'Projet.deltaone@outlook.fr',
+            From : document.getElementById("email").value,
+            Subject : "nouveau message du site de deltaone",
             Body : "And this is the body"
         }).then(
           message => alert(message)
