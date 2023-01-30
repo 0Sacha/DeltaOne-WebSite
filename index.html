@@ -5,56 +5,62 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
     <title>DeltaOne | Accueil</title>
+    <link rel="stylesheet" href="css/loader.css">
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/darkmode.css">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Roboto+Flex:opsz,wght@8..144,100;8..144,300;8..144,500;8..144,700;8..144,900&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Roboto+Flex:opsz,wght@8..144,100;8..144,300;8..144,500;8..144,700;8..144,900&display=swap" rel="stylesheet"/>
+  
   </head>
+  <header>
 
-  
 
-  
+  </header>
   <body>
 
+      
+     <nav>
+  
+      <a href="index.html" class="nav-icon" aria-label="visit homepage" aria-current="page">
+        <img src="img/energie-eolienne.png" alt="chat icon">
+        <span class="logo">DeltaOne</span>
+      </a>
+
+      <div class="main-navlinks">
+        <button class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+        <div class="navlinks-container">
+          <a class="home" href="#" aria-current="page">Accueil</a>
+          <a href="Projet.html">Projet</a>
+          <a href="Apropos.html">A propos</a>
+          <a href="Contact.html">Contact</a>
+          <a class="login" href="login.html">Login</a>
+        </div>
+      <div class="nav-authentication">
+        
+        <div class="sign-btns">
+          <a href="login.html"><button type="button">Login</button></a>
+       </div>
+      </div>
+    </nav>
     
-      <nav>
-  
-        <a href="index.html" class="nav-icon" aria-label="visit homepage" aria-current="page">
-          <img src="img/energie-eolienne.png" alt="chat icon">
-          <span class="logo">DeltaOne</span>
-        </a>
-  
-        <div class="main-navlinks">
-          <button class="hamburger">
-            <span></span>
-            <span></span>
-            <span></span>
-          </button>
-          <div class="navlinks-container">
-            <a class="home" href="#" aria-current="page">Accueil</a>
-            <a href="Projet.html">Projet</a>
-            <a href="Apropos.html">A propos</a>
-            <a href="Contact.html">Contact</a>
-          </div>
-        </div>
-        <div class="nav-authentication">
-          
-          <div class="sign-btns">
-            <a href="login.html"><button type="button">Login</button></a>
-         </div>
-        </div>
-      </nav>
-      
-      
-      
+    <!-- <div class="center">
+      <div class="ring"></div>
+      <a href="#homepage" class="load">chargement...</a>
+   </div> -->
+
+
+
       <div class="contenu">
-      <h1>BIENVENUE CHEZ DELTAONE !</h1>
-      <p>Deltaoneest le nom d'une équipe de lycéens en dernière année</p>
+      <h1 id="homepage" class="titre">BIENVENUS CHEZ DELTAONE !</h1>
+      <p>Deltaone est le nom d'une équipe de lycéens en dernière année</p>
           <a href="Apropos.html"><button class="ensaavoirplus" type="button">En savoir plus</button></a>
       <script src="js/app.js"></script>
     </div>
@@ -67,15 +73,10 @@
         <p>DeltaOne une nouvelle ère</p>
         <p>DeltaOne une équipe à votre écoute</p>
         <p>DeltaOne votre électricité est notre priorité</p>
+        <p></p>
       </div>
     </div>
-
-    <footer>
-
-
-
-    </footer>
-
+    <script src="js/loader.js"></script>
     <script src="js/script.js"></script>
   </body>
 

@@ -2,6 +2,7 @@
 <html lang="fr">
   <head>
     <meta charset="UTF-8" />
+    <link rel="shortcut icon" href="img/energie-eolienne.png">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact</title>
@@ -36,6 +37,7 @@
           <a href="Projet.html">Projet</a>
           <a href="Apropos.html">A propos</a>
           <a class="contact"href="#">Contact</a>
+          <a class="login" href="login.html">Login</a>
         </div>
       </div>
 
@@ -53,7 +55,7 @@
       
       
     <script src="js/script.js"></script>
-  </body>
+  
 
   <br>
   <br>
@@ -62,39 +64,38 @@
   <br>
   
   <div class="wrapper">
-    <header>CONTACTEZ L'ÉQUIPES DE DELTAONE ! </header>
-    <form action="#">
-      <div class="dbl-field">
-        <div class="field">
-          <input type="text" name="name" placeholder="Entre ton nom/pseudo">
-          <i class='fas fa-user'></i>
-        </div>
-        <br>
-        <div class="field">
-          <input type="text" name="email" placeholder="Entre ton email">
-          <i class='fas fa-envelope'></i>
-        </div>
-      </div>
-      <br>
-      <div class="dbl-field">
-        <div class="field">
-          <input type="text" name="phone" placeholder="Entre ton numeros de téléphone">
-          <i class='fas fa-phone-alt'></i>
-        </div>
-        <br>
-      </div>
-      <br>
-      <div class="message">
-        <textarea placeholder="Écrit ton message" name="message"></textarea>
-        <i class="material-icons"></i>
-      </div>
-      <br>
-      <div class="sendemail">
-        <a href="#"><button type="submit">Envoyé</button></a>
-      </div>
-    </form>
+    
+  <header>CONTACTEZ L'ÉQUIPE DE DELTAONE !</header>
+  
+  <form onsubmit="sendEmail(); reset(); return false;" class="form-contact" >
 
-  </div>
+    Nom / Prénom : <input type="text" id="name" placeholder="Ton Nom / Prénom"><br>
 
+    email : <input type="email" id="email" placeholder="Entre ton email / adresse mail"><br>
+
+    Numéro de téléphone : <input type="number" id="phone" placeholder="Entre ton numéros de téléphone"><br>
+
+    Ton message : <textarea id="message" rows="4" placeholder="Eris ton message"></textarea>
+
+    <button type="submit">Envoyer</button>
+
+      </form>
+    </div>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script>
+      function sendEmail(){
+          Email.send({
+            Host : "smtp.office365.com",
+            Username : "Projet",
+            Password : "password",
+            To : 'them@website.com',
+            From : "you@isp.com",
+            Subject : "This is the subject",
+            Body : "And this is the body"
+        }).then(
+          message => alert(message)
+        );
+      }
+    </script>
+  </body>
 </html>
-
