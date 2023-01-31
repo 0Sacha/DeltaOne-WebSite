@@ -612,6 +612,19 @@ form .message textarea{
 
 }
 
+@media (max-width: 450px){
+
+  img.plan {
+    width: 350px;
+  }
+  
+  
+  img.plan {
+    margin-left: 5%;
+  }
+
+}
+
 @media (max-width: 600px){
   .wrapper header{
     text-align: center;
