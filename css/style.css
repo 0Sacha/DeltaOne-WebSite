@@ -12,7 +12,10 @@
 
 img.plan {
   width: 925px;
-  
+}
+
+img.plan {
+  margin-left: 25%;
 }
 
 .btn {
@@ -531,6 +534,83 @@ form .message textarea{
   transition: 1s;
 }
 
+@media (max-width: 1550px){
+
+  img.plan {
+    width: 800px;
+  }
+  
+  img.plan {
+    margin-left: 25%;
+  }
+
+}
+
+
+@media (max-width: 1333px){
+
+  img.plan {
+    width: 700px;
+  }
+  
+  img.plan {
+    margin-left: 25%;
+  }
+
+}
+
+
+@media (max-width: 1265px){
+
+  img.plan {
+    width: 600px;
+  }
+  
+  img.plan {
+    margin-left: 25%;
+  }
+
+}
+
+
+@media (max-width: 968px){
+
+  img.plan {
+    width: 500px;
+  }
+  
+  img.plan {
+    margin-left: 25%;
+  }
+
+}
+
+
+@media (max-width: 800px){
+
+  img.plan {
+    width: 400px;
+  }
+  
+  img.plan {
+    margin-left: 25%;
+  }
+
+}
+
+
+@media (max-width: 600px){
+
+  img.plan {
+    width: 300px;
+  }
+  
+  
+  img.plan {
+    margin-left: 25%;
+  }
+
+}
 
 @media (max-width: 600px){
   .wrapper header{
@@ -567,6 +647,7 @@ form .message textarea{
 }
 
 /* login */
+
 
 
 
