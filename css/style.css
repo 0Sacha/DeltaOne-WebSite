@@ -18,6 +18,30 @@ img.plan {
   margin-left: 25%;
 }
 
+.btn-projet p{
+  color: #000;
+  text-align: center ;
+  font-size: 27px;
+  font-weight: bold;
+}
+
+.btn-projet {
+
+  margin-top: 5%;
+  margin-bottom: 2%;
+  background-color: #fff;
+  width: 500px;
+  padding: 75px 0;
+  transition: none;
+  opacity: 100%;
+}
+
+.btn-projet:hover {
+  background: #ffffff;
+  border-color: rgba(255, 255, 255, 0);
+  transition: none;
+}
+
 .btn {
   height:100px ;
   width: 100px;
@@ -369,6 +393,112 @@ nav {
   display: none;
 }
 
+/* RETOUR */
+
+.navlinks-container .Marketing::after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: -3px;
+  width: 100%;
+  height: 2.5px;
+  border-radius: 50px;
+  transform: scaleX(0);
+  transform-origin: left;
+  background: #ffffff00;
+  transition: transform 0.3s ease-out;
+}
+
+.navlinks-container .Marketing {
+  font-weight: bold;
+  color: #0099ff;
+}
+
+/* Conception */
+
+.navlinks-container .Conception::after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: -3px;
+  width: 100%;
+  height: 2.5px;
+  border-radius: 50px;
+  transform: scaleX(0);
+  transform-origin: left;
+  background: #ffffff00;
+  transition: transform 0.3s ease-out;
+}
+
+.navlinks-container .Conception {
+  font-weight: bold;
+  color: #0099ff;
+}
+
+/* Financement */
+
+.navlinks-container .Financement::after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: -3px;
+  width: 100%;
+  height: 2.5px;
+  border-radius: 50px;
+  transform: scaleX(0);
+  transform-origin: left;
+  background: #ffffff00;
+  transition: transform 0.3s ease-out;
+}
+
+.navlinks-container .Financement {
+  font-weight: bold;
+  color: #0099ff;
+}
+
+/* Fabrication */
+
+.navlinks-container .Fabrication::after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: -3px;
+  width: 100%;
+  height: 2.5px;
+  border-radius: 50px;
+  transform: scaleX(0);
+  transform-origin: left;
+  background: #ffffff00;
+  transition: transform 0.3s ease-out;
+}
+
+.navlinks-container .Fabrication {
+  font-weight: bold;
+  color: #0099ff;
+}
+
+/* Marketing */
+
+.navlinks-container .Marketing::after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: -3px;
+  width: 100%;
+  height: 2.5px;
+  border-radius: 50px;
+  transform: scaleX(0);
+  transform-origin: left;
+  background: #ffffff00;
+  transition: transform 0.3s ease-out;
+}
+
+.navlinks-container .Marketing {
+  font-weight: bold;
+  color: #0099ff;
+}
+
+
 /* contact */
 
 .navlinks-container .contact::after {
@@ -610,6 +740,28 @@ form .message textarea{
     margin-left: 25%;
   }
 
+  .btn-projet p{
+    color: #000;
+    text-align: center ;
+    font-size: 27px;
+  }
+  
+  .btn-projet {
+  
+    margin-top: 5%;
+    margin-bottom: 2%;
+    background-color: #fff;
+    width: 400px;
+    padding: 75px 0;
+    transition: none;
+    opacity: 100%;
+  }
+  
+  .btn-projet:hover {
+    background: #ffffff;
+    border-color: rgba(255, 255, 255, 0);
+    transition: none;
+  }
 }
 
 @media (max-width: 450px){
@@ -623,6 +775,28 @@ form .message textarea{
     margin-left: 5%;
   }
 
+  .btn-projet p{
+    color: #000;
+    text-align: center ;
+    font-size: 27px;
+  }
+  
+  .btn-projet {
+  
+    margin-top: 5%;
+    margin-bottom: 2%;
+    background-color: #fff;
+    width: 350px;
+    padding: 75px 0;
+    transition: none;
+    opacity: 100%;
+  }
+  
+  .btn-projet:hover {
+    background: #ffffff;
+    border-color: rgba(255, 255, 255, 0);
+    transition: none;
+  }
 }
 
 @media (max-width: 600px){
