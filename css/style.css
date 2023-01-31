@@ -393,6 +393,10 @@ nav {
   display: none;
 }
 
+.navlinks-container .Retour-index {
+  display: none;
+}
+
 /* RETOUR */
 
 .navlinks-container .Marketing::after {
@@ -1027,32 +1031,7 @@ body.dark {
   border-radius: 8px;
 }
 
-.retour-login {
-  display: flex;
-  text-decoration: none;
-  justify-content: space-between;
-}
 
-.retour-login {
-  padding: 0px 0px;
-  margin: 5px 10px;
-  margin-top: 21px;
-}
-
-.retour-login {
-  width: 35px;
-  height: 35px;
-}
-
-.navlinks-container .login {
-  display:  flex;
-  font-weight: bold;
-  background: #12a0ff;
-  padding: 4px 4px;
-  margin: 10px 0px;
-  border-radius: 8px;
-  font-size: 21px;
-}
 
   .btn-toggle {
     position: absolute;
