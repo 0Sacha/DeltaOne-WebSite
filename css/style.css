@@ -850,33 +850,6 @@ form .message textarea{
   }
 }
 
-/* iphone XR */
-
-@media (max-width: 415px){
-
-  .btn-projet p{
-    color: #000;
-    text-align: center ;
-    font-size: 27px;
-  }
-  
-  .btn-projet {
-  
-    margin-top: 5%;
-    margin-bottom: 2%;
-    background-color: #fff;
-    width: 327px;
-    padding: 75px 0;
-    transition: none;
-    opacity: 100%;
-  }
-  
-  .btn-projet:hover {
-    background: #ffffff;
-    border-color: rgba(255, 255, 255, 0);
-    transition: none;
-  }
-}
 
 /* iphone 12 Pro */
 
@@ -905,35 +878,6 @@ form .message textarea{
     transition: none;
   }
 }
-
-/* ipad air */
-
-@media (max-width: 900px){
-
-  .btn-projet p{
-    color: #000;
-    text-align: center ;
-    font-size: 27px;
-  }
-  
-  .btn-projet {
-  
-    margin-top: 5%;
-    margin-bottom: 2%;
-    background-color: #fff;
-    width: 650px;
-    padding: 75px 0;
-    transition: none;
-    opacity: 100%;
-  }
-  
-  .btn-projet:hover {
-    background: #ffffff;
-    border-color: rgba(255, 255, 255, 0);
-    transition: none;
-  }
-}
-
 
 
 @media (max-width: 600px){
