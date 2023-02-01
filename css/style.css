@@ -25,6 +25,12 @@ img.plan {
   font-weight: bold;
 }
 
+.navlinks-container .Retour-index{
+
+  color: #0099ff;
+  font-weight: bold;
+}
+
 .btn-projet {
 
   margin-top: 5%;
@@ -587,6 +593,14 @@ nav {
 }
 
 .navlinks-container .apropos {
+  font-weight: bold;
+  color: #12a0ff;
+}
+
+/* RETOUR */
+
+
+.navlinks-container .Retour-index{
   font-weight: bold;
   color: #12a0ff;
 }
