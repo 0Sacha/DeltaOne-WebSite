@@ -30,6 +30,12 @@ img.plan {
   font-weight: bold;
 }
 
+.navlinks-container .Retour-index{
+
+  color: #0099ff;
+  font-weight: bold;
+}
+
 .btn-projet {
 
   margin-top: 5%;
@@ -601,6 +607,14 @@ nav {
   color: #12a0ff;
 }
 
+/* RETOUR */
+
+
+.navlinks-container .Retour-index{
+  font-weight: bold;
+  color: #12a0ff;
+}
+
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 
@@ -808,6 +822,64 @@ form .message textarea{
     transition: none;
   }
 }
+
+/* iphone SE */
+
+@media (max-width: 376px){
+
+  .btn-projet p{
+    color: #000;
+    text-align: center ;
+    font-size: 27px;
+  }
+  
+  .btn-projet {
+  
+    margin-top: 5%;
+    margin-bottom: 2%;
+    background-color: #fff;
+    width: 300px;
+    padding: 75px 0;
+    transition: none;
+    opacity: 100%;
+  }
+  
+  .btn-projet:hover {
+    background: #ffffff;
+    border-color: rgba(255, 255, 255, 0);
+    transition: none;
+  }
+}
+
+
+/* iphone 12 Pro */
+
+@media (max-width: 391px){
+
+  .btn-projet p{
+    color: #000;
+    text-align: center ;
+    font-size: 27px;
+  }
+  
+  .btn-projet {
+  
+    margin-top: 5%;
+    margin-bottom: 2%;
+    background-color: #fff;
+    width: 310px;
+    padding: 75px 0;
+    transition: none;
+    opacity: 100%;
+  }
+  
+  .btn-projet:hover {
+    background: #ffffff;
+    border-color: rgba(255, 255, 255, 0);
+    transition: none;
+  }
+}
+
 
 @media (max-width: 600px){
   .wrapper header{
