@@ -269,6 +269,7 @@ footer p {
 }
 
 nav {
+  text-align: center;
   position: fixed;
   width: 100%;
   display: flex;
