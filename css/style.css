@@ -10,6 +10,11 @@
   padding: 0;
 }
 
+body {
+  font-family: Montserrat, Helvetica, sans-serif;
+  background: #e4e4e4;
+}
+
 .conception .pconcept {
   font-size: 26px;
   margin-left: 20px;
@@ -75,10 +80,7 @@ img.plan {
 }
 
 
-body {
-  font-family: Montserrat, Helvetica, sans-serif;
-  background: #020312;
-}
+
 
 .contenu {
   z-index: 1000;
@@ -177,13 +179,12 @@ h2 {
 h1 {
   font-size: 55px;
   padding: 150px 10vw 0 10vw;
-  color: #ffffff;
 }
 
 h1.titre {
   font-size: 55px;
   padding: 150px 10vw 0 10vw;
-  color: #ffffff;
+
 }
 
 
@@ -191,7 +192,6 @@ p{
   font-size: 30px;
   padding: 0 10vw 0 10vw;
   margin: 7px 0;
-  color: #f1f1f1;
 }
 
 .hamburger button {
@@ -281,7 +281,7 @@ nav {
   display: flex;
   align-items: center;
   padding: 15px 25px;
-  background: #020312;
+  backdrop-filter: blur(10px);
   box-shadow: inset 0px -1px 0px #44444400;
 }
 
@@ -922,29 +922,7 @@ form .message textarea{
 
 /* fin login */
 
-/* DARKMODE */
-.btn-toggle {
-  position: absolute;
-  top: -5px;
-  right: 180px;
-  width: 80px;
-  height: 80px;
-  border-radius: 50%;
-  color: #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center;    
-  cursor: pointer;
-}
 
-body.dark {
-  color: #1d1d1d!important;
-  background: rgb(253, 253, 253)!important;
-}
-
-
-
-/* FIN DARKMODE */
 
 
 /* footer */
@@ -1315,3 +1293,36 @@ body  {
 
 }
 
+/* darkmode */
+
+label{
+  position: absolute;
+  width: 45px;
+  height: 22px;
+  right: 20px;
+  top: 20px;
+  border: 2px solid;
+  border-radius: 20px;
+}
+label:before{
+  
+  position: absolute;
+  content: '';
+  width:20px;
+  height: 20px;
+  left: -1px;
+  top: -1px;
+  background: #000;
+  border-radius: 50%;
+  /* background-image: url(img/sun.png); */
+  cursor: pointer;
+  transition: 0.4s;
+}
+label.active:before{
+  left: 24px;
+  background: #fff;
+}
+body.night{
+  background: #000;
+  color: #fff;
+}
