@@ -179,12 +179,13 @@ h2 {
 h1 {
   font-size: 55px;
   padding: 150px 10vw 0 10vw;
+  color: #fff;
 }
 
 h1.titre {
   font-size: 55px;
   padding: 150px 10vw 0 10vw;
-
+  color: #fff;
 }
 
 
@@ -192,6 +193,7 @@ p{
   font-size: 30px;
   padding: 0 10vw 0 10vw;
   margin: 7px 0;
+  color:#fff;
 }
 
 .hamburger button {
@@ -278,7 +280,6 @@ nav {
   text-align: center;
   position: fixed;
   width: 100%;
-  display: flex;
   align-items: center;
   padding: 15px 25px;
   backdrop-filter: blur(10px);
@@ -286,7 +287,8 @@ nav {
 }
 
 .nav-icon {
-  display: flex;
+
+  display: contents;
   align-items: center;
   text-decoration: none;
   margin-right: 20px;
@@ -320,6 +322,7 @@ nav {
   
 
 .nav-icon span {
+  display: none;
   font-family: Roboto Flex, sans-serif;
   font-size: 25px;
   margin-left: 10px;
@@ -327,7 +330,10 @@ nav {
   color: rgb(255, 255, 255);
 }
 .nav-icon img {
-  width: 40px;
+  display: flex;
+  width: 50px;
+  top: -20px;
+  margin: 15px 15px;
 }
 .hamburger {
   display: none;
@@ -338,6 +344,7 @@ nav {
 }
 
 .navlinks-container a {
+  top: -50px;
   margin: 0 10px;
   font-size: 16px;
   font-weight: 500;
@@ -1231,6 +1238,7 @@ form .message textarea{
     font-size: 18px;
     margin: 10px 0
   }
+  
 
   .nav-authentication {
     order: 3;
@@ -1294,8 +1302,8 @@ body  {
 }
 
 /* darkmode */
-
-/* label{
+/* 
+label{
   position: absolute;
   width: 45px;
   height: 22px;
@@ -1323,16 +1331,12 @@ label.active:before{
   background: #fff;
 }
 body.night{
-  background: #000;
+  background: #ffffff;
   color: #fff;
 }
 
 @media (max-width: 900px) {
-  label{ */
-    
-    /* display: none; */
 
-  /* }
 
   label{
     position: absolute;
