@@ -1,94 +1,35 @@
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>East dark mode</title>
-    <style>
-        body{
-          margin: 0;
-          padding: 0;
-          font-family: sans-serif;
-        }
-        main{
-          margin: 5vh 15%;
-        }
-        h1{
-          font-size: 40px;
-          font-weight: 400;
-          text-align: center;
-        }
-        img{
-          width:50%;
-          height:auto;
-        }
-        p{
-        col
-          text-align: justify;
-          font-size: 18px;
-        }
-        label{
-            position: absolute;
-            width: 45px;
-            height: 22px;
-            right: 20px;
-            top: 20px;
-            border: 2px solid;
-            border-radius: 20px;
-        }
-        label:before{
-            position: absolute;
-            content: '';
-            width:20px;
-            height: 20px;
-            left: 1px;
-            top: 1px;
-            border-radius: 50%;
-            background: #000;
-            cursor: pointer;
-            transition: 0.4s;
-        }
-        label.active:before{
-            left: 24px;
-            background: #fff;
-        }
-        body.night{
-            background: #000;
-            color: #fff;
-        }
-        @media screen and (min-width:900px) {
-          .respon{
-            display: flex;
-          }
-          img{
-            height:50%;
-            width:auto;
-            padding-top: 3vh;
-            padding-right: 5%;
-          }
-          p{
-            max-width: 80%;
-            line-height: 30px;
-          }
-        }
-    </style>
-</head>
-<body>
-  <header>
-    <label  id="dark-change"></label>
-  </header>
-  <main>
-      <h1>Easy dark mode</h1>
-      <div class="respon">
-        <img src="darkmode.jpg">
-        <p>Light-on-dark color scheme, also called dark mode, dark theme or night mode, is a color scheme that uses light-colored text, icons, and graphical user interface elements on a dark background and is often discussed in terms of computer user interface design and web design.</p>
-      </div>
-  </main>
-    <script>
-        var content = document.getElementsByTagName('body')[0];
-        var darkMode = document.getElementById('dark-change');
-        darkMode.addEventListener('click', function(){
-            darkMode.classList.toggle('active');
-            content.classList.toggle('night');
-        })
-    </script>
-</body>
+<!DOCTYPE html>
+    <head>
+        <link rel="stylesheet" href="css/navbar2.0.css">
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Navbar</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:500&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <a><img class="logo" src="img/energie-eolienne.png" alt="logo"></a>
+            <nav>
+                <ul class="nav__links">
+                    <li><a class="home" href="#" aria-current="page">Accueil</a></li>
+                    <li><a href="1Projet.html">Projet</a></li>
+                    <li><a href="1Apropos.html">A propos</a></li>
+                </ul>
+            </nav>
+            <a class="cta" href="#">Contact</a>
+            <p class="menu cta">Menu</p>
+        </header>
+        <div class="overlay">
+            <a class="close">&times;</a>
+            <div class="overlay__content">
+                <a href="#">Services</a>
+                <a href="#">Projects</a>
+                <a href="#">About</a>
+            </div>
+        </div>
+        <script type="text/javascript" src="js/mobile.js"></script>
+    </body>
 </html>

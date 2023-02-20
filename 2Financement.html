@@ -1,6 +1,7 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
+  <link rel="stylesheet" href="css/navbar2.0.css">
     <link rel="stylesheet" href="css/style.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,38 +9,28 @@
     <title>Projet | Financement</title>
 </head>
 <header>
-
-    <nav>
-  
-        <a href="index.html" class="nav-icon" aria-label="visit homepage" aria-current="page">
-          <img src="img/energie-eolienne.png" alt="chat icon">
-          <span class="logo">DeltaOne</span>
-        </a>
-  
-        <div class="main-navlinks">
-          <button class="hamburger">
-            <span></span>
-            <span></span>
-            <span></span>
-          </button>
-        </div>
-          <div class="navlinks-container">
-            <a class="Retour-index" href="index.html">RETOUR</a>
-            <a href="2Conception.html" aria-current="page">Conception</a>
-            <a class="Financement"  href="2Financement.html">Financement</a>
-            <a href="2Finalisation.html">Finalisation</a>
-            <a href="2Marketing.html">Marketing</a>
-          </div>
-          
-        <div class="nav-authentication">
-          
-          <div class="sign-btns">
-            <a href="index.html"><button type="button">Retour</button></a>
-         </div>
-        </div>
-      </nav>
-
+  <a href="index.html"><img class="logo" src="img/energie-eolienne.png" alt="logo"></a>
+  <nav>
+      <ul class="nav__links">
+          <li><a href="2Conception.html" aria-current="page">Conception</a></li>
+          <li><a href="#">Financement</a></li>
+          <li><a href="2Finalisation.html">Finalisation</a></li>
+          <li><a href="2Marketing.html">Marketing</a></li>
+      </ul>
+  </nav>
+  <a class="cta" href="#">Contact</a>
+  <p class="menu cta">Menu</p>
 </header>
+<div class="overlay">
+  <a class="close">&times;</a>
+  <div class="overlay__content">
+    <a href="2Conception.html">Conception</a>
+    <a href="#">Financement</a>
+    <a href="2Finalisation.html">Finalisation</a>
+    <a href="2Marketing.html">Marketing</a>
+</div>
+  </div>
+</div>
 <body>
   <div class="conception"> 
     <br>
@@ -66,5 +57,6 @@
 <footer>
 
 </footer>
+<script src="js/mobile.js"></script>
 <script src="js/script.js"></script>
 </html>

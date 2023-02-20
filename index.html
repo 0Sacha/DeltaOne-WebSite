@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     
     <title>DeltaOne | Accueil</title>
+    <link rel="stylesheet" href="css/navbar2.0.css">
     <link rel="stylesheet" href="css/loader.css">
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/darkmode.css">
@@ -16,41 +17,27 @@
   
   </head>
   <header>
-
-
-  </header>
+    <a href="index.html"><img class="logo" src="img/energie-eolienne.png" alt="logo"></a>
+    <nav>
+        <ul class="nav__links">
+            <li><a class="home" href="#" aria-current="page">Accueil</a></li>
+            <li><a href="1Projet.html">Projet</a></li>
+            <li><a href="1Apropos.html">A propos</a></li>
+        </ul>
+    </nav>
+    <a class="cta" href="#">Contact</a>
+    <p class="menu cta">Menu</p>
+</header>
+<div class="overlay">
+    <a class="close">&times;</a>
+    <div class="overlay__content">
+        <a href="#">Accueil</a>
+        <a href="1Projet.html">Projet</a>
+        <a href="1Apropos.html">A propos</a>
+    </div>
+</div>
   <body>
 
-      
-     <nav>
-  
-      <a href="index.html" class="nav-icon" aria-label="visit homepage" aria-current="page">
-        <img src="img/energie-eolienne.png" alt="chat icon">
-        <span class="logo">DeltaOne</span>
-      </a>
-
-      <div class="main-navlinks">
-        <button class="hamburger">
-          <span></span>
-          <span></span>
-          <span></span>
-        </button>
-      </div>
-        <div class="navlinks-container">
-          <a class="home" href="#" aria-current="page">Accueil</a>
-          <a href="1Projet.html">Projet</a>
-          <a href="1Apropos.html">A propos</a>
-          <!-- <a href="Contact.html">1Contact</a> -->
-          <!-- <a class="login" href="login.html">Login</a> -->
-        </div>
-      <div class="nav-authentication">
-        
-        <div class="sign-btns">
-          <!-- <a href="login.html"><button type="button">Login</button></a> -->
-       </div>
-      </div>
-    </nav>
-    
     <label  id="dark-change"></label>
 
 
@@ -72,6 +59,7 @@
         <p></p>
       </div>
     </div>
+    <script type="text/javascript" src="js/mobile.js"></script>
     <script src="js/darkmode.js"></script>
     <script src="js/loader.js"></script>
     <script src="js/script.js"></script>
