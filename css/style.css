@@ -82,7 +82,7 @@ img.plan {
 
 
 .contenu {
-  z-index: 1000;
+  z-index: 100;
 }
 
 
@@ -183,7 +183,7 @@ h1 {
 
 h1.titre {
   font-size: 55px;
-  padding: 150px 10vw 0 10vw;
+  padding: 116px 10vw 0 10vw;
   color: #fff;
 }
 

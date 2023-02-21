@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     
     <title>DeltaOne | Accueil</title>
+    <link rel="stylesheet" href="css/slider.css">
     <link rel="stylesheet" href="css/navbar2.0.css">
     <link rel="stylesheet" href="css/loader.css">
     <link rel="stylesheet" href="css/style.css" />
@@ -40,14 +41,36 @@
 
     <label  id="dark-change"></label>
 
+    
 
       <div class="contenu">
+
       <h1 id="homepage" class="titre">BIENVENUE CHEZ DELTAONE !</h1>
-      <p>Deltaone est le nom d'une équipe de lycéens en dernière année</p>
-          <a href="1Apropos.html"><button class="ensaavoirplus" type="button">En savoir plus</button></a>
-      <script src="js/app.js"></script>
+
+      <a href="1Apropos.html"><button class="ensaavoirplus" type="button">En savoir plus</button></a>
+
+      
     </div>
+
+    <section class="container">
+      <div class="slider-wrapper">
+        <div class="slider1">
+          <img id="slide-1" src="img/eoliennes.png" alt="" />
+          <img id="slide-2" src="img/eoliennes de mer.jpg" alt="" />
+          <img id="slide-3" src="img/eoliennes-de-plaine.jpg" alt="" />
+        </div>
+        <div class="slider-nav">
+          <a href="#slide-1"></a>
+          <a href="#slide-2"></a>
+          <a href="#slide-3"></a>
+        </div>
+      </div>
+    </section>
     
+    
+
+
+
     <!-- slider -->
 
     <div class="slider-container slider-1">
@@ -59,10 +82,15 @@
         <p></p>
       </div>
     </div>
+
+ 
+    <!-- Script -->
+    <script src="js/app.js"></script>
     <script type="text/javascript" src="js/mobile.js"></script>
     <script src="js/darkmode.js"></script>
     <script src="js/loader.js"></script>
     <script src="js/script.js"></script>
+
   </body>
 
   </html>
