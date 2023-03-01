@@ -15,6 +15,8 @@
   .logo {
     height: 50px ;
     cursor: pointer;
+    opacity: 0;
+    animation: slideRight 1s ease forwards;  
   }
   
   .nav__links a,
@@ -29,6 +31,7 @@
   .nav__links {
     list-style: none;
     display: flex;
+    
   }
   
   .nav__links li {
@@ -36,7 +39,11 @@
   }
 
   .nav__links li a {
+    display: inline-block;
     transition: color 0.3s ease 0s;
+    opacity: 0;
+    animation: slideTop 1s ease forwards;
+    animation-delay: calc( .2s * var(--i));
   }
   
   .nav__links li a:hover {
@@ -50,6 +57,8 @@
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease 0s;
+    opacity: 0;
+    animation: slideLeft 1s ease forwards; 
   }
   
   .cta:hover {
@@ -146,3 +155,42 @@
     color: #12a0ff;
   } */
   
+  /* Keyframes animation */
+@keyframes slideRight {
+  0% {
+      transform: translateX(-100px);
+      opacity: 0;
+  }
+
+  100% {
+      transform: translateX(0);
+      opacity: 1;
+  }
+
+}
+
+@keyframes slideLeft {
+  0% {
+      transform: translateX(100px);
+      opacity: 0;
+  }
+
+  100% {
+      transform: translateX(0);
+      opacity: 1;
+  }
+
+}
+
+@keyframes slideTop {
+  0% {
+      transform: translateY(-100px);
+      opacity: 0;
+  }
+
+  100% {
+      transform: translateY(0);
+      opacity: 1;
+  }
+
+}

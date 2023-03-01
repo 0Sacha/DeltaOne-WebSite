@@ -1,67 +1,45 @@
 <!DOCTYPE html>
 <html lang="fr">
   <head>
-    <meta charset="UTF-8" />
     <link rel="shortcut icon" href="img/energie-eolienne.png">
+    <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Contact</title>
+    
+    <title>DeltaOne | Accueil</title>
+    <link rel="stylesheet" href="css/slider.css">
+    <link rel="stylesheet" href="css/navbar2.0.css">
+    <link rel="stylesheet" href="css/loader.css">
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/darkmode.css">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Roboto+Flex:opsz,wght@8..144,100;8..144,300;8..144,500;8..144,700;8..144,900&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Roboto+Flex:opsz,wght@8..144,100;8..144,300;8..144,500;8..144,700;8..144,900&display=swap" rel="stylesheet"/>
+  
   </head>
-
-
-  
-  <body>
-  
+  <header>
+    <a href="index.html"><img class="logo" src="img/energie-eolienne.png" alt="logo"></a>
     <nav>
-
-      <a href="index.html" class="nav-icon" aria-label="visit homepage" aria-current="page">
-        <img src="img/energie-eolienne.png" alt="chat icon">
-        <span class="logo">DeltaOne</span>
-      </a>
-
-      <div class="main-navlinks">
-        <button class="hamburger" type="button" aria-label="Toggle navigation" aria-expanded="false">
-          <span></span>
-          <span></span>
-          <span></span>
-        </button>
-        <div class="navlinks-container">
-          <a href="index.html" aria-current="page">Accueil</a>
-          <a href="1Projet.html">Projet</a>
-          <a href="1Apropos.html">A propos</a>
-          <!-- <a class="contact"href="#">Contact</a>
-          <a class="login" href="login.html">Login</a> -->
-        </div>
-      </div>
-
-      <div class="nav-authentication">
-        <a href="#" class="sign-user" aria-label="Sign in page">
-        </a>
-        <div class="sign-btns">
-          <!-- <a href="login.html"><button type="button">Login</button></a> -->
-       </div>
-       
-      
-
-      
+        <ul class="nav__links" >
+            <li><a class="home" href="index.html" style="--i:1;">Accueil</a></li>
+            <li><a href="1Projet.html"   style="--i:2;">Projet</a></li>
+            <li><a href="1Apropos.html"  style="--i:3;">A propos</a></li>
+        </ul>
     </nav>
-      
-      
-    <script src="js/script.js"></script>
-  
+    <a class="cta" href="index.html">retour</a>
+    <p class="menu cta">Menu</p>
+  </header>
+  <div class="overlay">
+    <a class="close">&times;</a>
+    <div class="overlay__content">
+        <a href="#">Accueil</a>
+        <a href="1Projet.html">Projet</a>
+        <a href="1Apropos.html">A propos</a>
+    </div>
+</div>
+  <body>
 
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
+    <br><br><br><br><br>
   
   <div class="wrapper">
     
@@ -81,6 +59,7 @@
 
       </form>
     </div>
+    <script src="js/script.js"></script>
     <script src="https://smtpjs.com/v3/smtp.js"></script>
     <script>
       function sendEmail(){

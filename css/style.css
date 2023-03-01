@@ -185,6 +185,8 @@ h1.titre {
   font-size: 55px;
   padding: 116px 10vw 0 10vw;
   color: #fff;
+  opacity: 0;
+  animation: slidetitle 3s ease forwards;
 }
 
 
@@ -842,4 +844,24 @@ body  {
   font-size: 25px;
   font-weight: bold;
 }
+}
+
+@media (max-width :350px) {
+  h1.titre {
+    font-size: 5px;
+    padding: 116px 10vw 0 10vw;
+    color: #fff;
+  }
+}
+
+@keyframes slidetitle {
+  0% {
+    transform: translateZ(100px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateZ(0);
+    opacity: 1;
+  }
 }
