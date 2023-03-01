@@ -24,11 +24,16 @@ body {
 }
 
 img.plan {
-  width: 925px;
+  display: flex;
+    flex-grow: 1;
+    gap: 5px;
+    margin-top: 10px;
 }
 
-img.plan {
-  margin-left: 25%;
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .btn-projet p{
@@ -182,7 +187,8 @@ h1 {
 }
 
 h1.titre {
-  font-size: 55px;
+  font-size: 45px;
+  margin-top: -80px;
   padding: 116px 10vw 0 10vw;
   color: #fff;
   opacity: 0;
@@ -374,81 +380,11 @@ form .message textarea{
   transition: 1s;
 }
 
-@media (max-width: 1550px){
 
-  img.plan {
-    width: 800px;
-  }
-  
-  img.plan {
-    margin-left: 25%;
-  }
-
-}
-
-
-@media (max-width: 1333px){
-
-  img.plan {
-    width: 700px;
-  }
-  
-  img.plan {
-    margin-left: 25%;
-  }
-
-}
-
-
-@media (max-width: 1265px){
-
-  img.plan {
-    width: 600px;
-  }
-  
-  img.plan {
-    margin-left: 25%;
-  }
-
-}
-
-
-@media (max-width: 968px){
-
-  img.plan {
-    width: 500px;
-  }
-  
-  img.plan {
-    margin-left: 25%;
-  }
-
-}
-
-
-@media (max-width: 800px){
-
-  img.plan {
-    width: 400px;
-  }
-  
-  img.plan {
-    margin-left: 25%;
-  }
-
-}
 
 
 @media (max-width: 600px){
 
-  img.plan {
-    width: 300px;
-  }
-  
-  
-  img.plan {
-    margin-left: 25%;
-  }
 
   .btn-projet p{
     color: #000;
@@ -476,14 +412,6 @@ form .message textarea{
 
 @media (max-width: 450px){
 
-  img.plan {
-    width: 350px;
-  }
-  
-  
-  img.plan {
-    margin-left: 5%;
-  }
 
   .btn-projet p{
     color: #000;
