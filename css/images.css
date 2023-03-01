@@ -3,6 +3,7 @@
     flex-grow: 1;
     gap: 5px;
     margin-top: 10px;
+    aspect-ratio: 16 / 9;
 }
 
 img {
