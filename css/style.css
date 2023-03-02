@@ -784,12 +784,12 @@ body  {
 
 @keyframes slidetitle {
   0% {
-    transform: translateZ(100px);
+    transform: translateX(100px);
     opacity: 0;
   }
 
   100% {
-    transform: translateZ(0);
+    transform: translateX(0);
     opacity: 1;
   }
 }
