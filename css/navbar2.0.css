@@ -15,6 +15,7 @@
   .logo {
     height: 50px ;
     cursor: pointer;
+    object-fit: cover;
     opacity: 0;
     animation: slideRight 1s ease forwards;  
   }
