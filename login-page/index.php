@@ -1,3 +1,13 @@
+<?php 
+session_start();
+
+	include("connection.php");
+	include("functions.php");
+
+	$user_data = check_login($con);
+
+?>
+
 <!DOCTYPE html>
 <html lang="fr">
   <head>
@@ -28,7 +38,7 @@
             <li><a href="1Apropos.html"  style="--i:3;">A propos</a></li>
         </ul>
     </nav>
-    <a class="cta" href="login-page/login.php">Connexion</a>
+    <a class="cta" href="1Contact.html">Contact</a>
     <p class="menu cta">Menu</p>
 </header>
     <div class="overlay">
